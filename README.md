@@ -42,7 +42,7 @@ tracert -4 www.google.es
 tracert -6 www.google.es
 ```
 ## Apartado 1 Solucion
-- 1. Obten la lista de los routers y sus IPs que hay entre tu pc y el servidor [NSRC](https://nsrc.org/)
+1. Obten la lista de los routers y sus IPs que hay entre tu pc y el servidor [NSRC](https://nsrc.org/)
 
 ````
   1    <1 ms    <1 ms    <1 ms  192.168.1.1
@@ -73,10 +73,10 @@ tracert -6 www.google.es
 
 Traza completa.
 ````
-- 2. Investiga qué significan las líneas en las que no aparece IP y en su lugar aparecen asteriscos.
+2. Investiga qué significan las líneas en las que no aparece IP y en su lugar aparecen asteriscos.
      Si algún nodo muestra * * *, significa que no se recibió respuesta en el tiempo establecido o que el nodo tiene reglas de firewall que bloquean el rastreo.
 
-- 3. Escribe, junto a cada IP, su ubicación geográfica.
+3. Escribe, junto a cada IP, su ubicación geográfica.
 No Hagas TODOS! Solo el 4º, el 5º y el
 6º salto, y los 3 últimos. Para ello, puedes usar varios servicios: https://www.iplocation.net/,
  https://iplocation.com/, …. (Sólo busca en google ‘ip location’ y elige el que tú quieras)
